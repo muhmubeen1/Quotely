@@ -4,6 +4,7 @@ class Book {
   final String author;
   final String genre;
   final int totalPages;
+  final String? coverUrl;
 
   Book({
     required this.id,
@@ -11,6 +12,7 @@ class Book {
     required this.author,
     required this.genre,
     required this.totalPages,
+    this.coverUrl,
   });
 
   factory Book.fromJson(Map<String, dynamic> json) {
@@ -18,8 +20,9 @@ class Book {
       id: json['id'],
       title: json['title'],
       author: json['author'],
-      genre: json['genre'] ?? '',
+      genre: json['genre'],
       totalPages: json['total_pages'],
+      coverUrl: json['cover_url'],
     );
   }
 
@@ -29,6 +32,7 @@ class Book {
       'author': author,
       'genre': genre,
       'total_pages': totalPages,
+      'cover_url': coverUrl,
     };
   }
 }

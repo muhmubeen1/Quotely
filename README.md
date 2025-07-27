@@ -1,6 +1,4 @@
-
-
-
+---
 
 ```markdown
 # 📚 Quotely Backend
@@ -105,9 +103,4 @@ npm start
 
 ---
 
-## 🙌 Contributing
-
-Contributions, suggestions, and feature requests are welcome!
-Please open an issue or submit a pull request.
-
-
+```

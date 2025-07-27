@@ -1,8 +1,5 @@
 
 
----
-
-```markdown
 # 📚 Quotely Backend
 
 **Quotely** is a quote management SaaS platform built for readers to save, organize, and interact with quotes from books. This is the backend of the application, developed using **Node.js**, **Express**, and **PostgreSQL**.
